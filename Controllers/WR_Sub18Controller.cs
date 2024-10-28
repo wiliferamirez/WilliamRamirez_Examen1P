@@ -46,7 +46,7 @@ namespace WilliamRamirez_Examen1P.Controllers
         // GET: WR_Sub18/Create
         public IActionResult Create()
         {
-            return View();
+            return View("WR_Create");
         }
 
         // POST: WR_Sub18/Create
