@@ -14,7 +14,6 @@ namespace WilliamRamirez_Examen1P.Data
         {
         }
 
-        public DbSet<WilliamRamirez_Examen1P.Models.WR_jugadores> WR_jugadores { get; set; } = default!;
         public DbSet<WilliamRamirez_Examen1P.Models.WR_Sub18> WR_Sub18 { get; set; } = default!;
     }
 }
