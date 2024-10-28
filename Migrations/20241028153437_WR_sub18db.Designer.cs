@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WilliamRamirez_Examen1P.Data;
 
@@ -11,9 +12,11 @@ using WilliamRamirez_Examen1P.Data;
 namespace WilliamRamirez_Examen1P.Migrations
 {
     [DbContext(typeof(WilliamRamirez_Examen1PContext))]
-    partial class WilliamRamirez_Examen1PContextModelSnapshot : ModelSnapshot
+    [Migration("20241028153437_WR_sub18db")]
+    partial class WR_sub18db
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

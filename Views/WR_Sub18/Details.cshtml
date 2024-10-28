@@ -1,0 +1,60 @@
+﻿@model WilliamRamirez_Examen1P.Models.WR_Sub18
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>WR_Sub18</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR_nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR_nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR_apellido)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR_apellido)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR_edad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR_edad)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR_dorsal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR_dorsal)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR_activo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR_activo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR_fechaInscripcion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR_fechaInscripcion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WR_sueldo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WR_sueldo)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
